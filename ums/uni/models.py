@@ -20,3 +20,5 @@ class Result(models.Model):
     course_id = models.ForeignKey()
     student_id = models.ForeignKey()
     grade = models.IntegerField()
+
+    
